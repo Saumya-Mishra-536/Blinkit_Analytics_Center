@@ -1,0 +1,43 @@
+blinkit_customers,blinkit_customer_feedback,blinkit_inventory
+understood rows & columns,understood rows & columns,understood rows & columns
+understood datatype,understood datatype,understood datatype
+freeze header row,freeze header row,freeze header row
+add filters,add filters,add filters
+checked column stats,checked column stats,checked column stats
+data cleanup checked,data cleanup checked,data cleanup checked
+duplicates removed,duplicates removed,duplicates removed
+white spaces removed,white spaces removed,white spaces removed
+name in proper case,name in proper case,
+,,product_id is 
+What Validation Should Be Applied on phone numbers?,"ratings and sentiments did not match, converted them in correct format using the formula    
+ =IFS(D2=5,""Excellent"",
+ D2=4,""Very Good"",
+ D2=3,""Neutral"",
+ D2=2,""Average"",
+ D2=1,""Bad""
+)
+",date changed to different format
+,"as sentiment grouping is already performed, we do not need rating bucket.However, we add an extra column as it helps in cleaner kpi . as it is the business standard",damage % column added
+1. Length Check: Must be exactly 13 characters including +91 Or 10 digits if stored without country code,future feedback column is not present as it is not a required column,check of damaged_stock>stock_recieved
+2. Country Code Check: Must start with +91,,
+"3. After +91, first digit must be 6–9",,
+4.Only digits allowed (except leading +),,
+,,
+"Address, area, pincode validation needed",,
+1.Address field should not be NULL or empty.,,
+"2.Remove line breaks (\n, \r) and convert to single-line format.",,
+"3.Standardize separator format to: House No, Street, City, Pincode.",,
+4.Ensure pincode is exactly 6 digits,,
+"5 not allow special characters except comma, slash, hyphen, and period to standardize data",,
+6. City name should contain only alphabets and spaces.,,
+,,
+optimize customer segment,,
+1. ensure proper case and consistent spelling ,,
+"2. improve business clarity eg: Premium- high value , inactive- least value etc",,
+,,
+prioritization of columns,,
+1.order_id: Required to count total orders accurately.,,
+2.order_amount: Core metric for revenue calculation.,,
+3.order_date: Needed for monthly/quarterly AOV trends.,,
+4.order_status: Exclude cancelled/returned orders.,,
+5.customer_id: Required to calculate AOV per customer.,,
