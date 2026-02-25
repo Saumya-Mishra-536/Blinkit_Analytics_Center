@@ -209,7 +209,7 @@ Looker:
 Dashboard1: https://lookerstudio.google.com/embed/reporting/c0edb5d3-e2f3-47b1-ac47-48a23cd9d900/page/page_12345
 
 
-Dashboard2: 
+Dashboard2: https://lookerstudio.google.com/reporting/f370c2d0-90f4-4ff2-91ab-8a9fc374e4d3/page/page_12345/edit
 
 Dashboard3: https://lookerstudio.google.com/reporting/545b506c-1370-44fc-87d3-7e5c92b3ddb3/page/aNBqF
 
