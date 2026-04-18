@@ -166,6 +166,6 @@ It reflects how data can drive **strategic and operational decisions** in a fast
 
 ---
 
-## 👤 Author
+##  Author
 
 **Saumya Mishra**
