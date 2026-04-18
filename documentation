@@ -1,0 +1,262 @@
+#  Blinkit Business Analytics System
+
+### *A Comprehensive Data-Driven Study on Customer Behavior, Feedback Intelligence, Marketing Efficiency, and Inventory Optimization*
+
+---
+
+## 1.  Abstract
+
+This project presents a comprehensive analytics framework developed for Blinkit, a last-minute delivery platform. The objective is to extract actionable insights from multi-domain datasets including **customer behavior, feedback systems, marketing channels, delivery operations, and inventory management**.
+
+Using structured data processing and dashboard visualization techniques, the project simulates a real-world business intelligence environment. The final output consists of **four interactive dashboards**, each addressing a critical business function.
+
+---
+
+## 2.  Problem Statement
+
+Modern quick-commerce platforms face challenges such as:
+
+* Low customer retention despite high acquisition
+* Fragmented feedback systems
+* Inefficient delivery operations
+* Inventory damage and wastage
+* Lack of unified KPI monitoring
+
+This project aims to solve these problems through **integrated analytics and visualization**.
+
+---
+
+## 3.  Objectives
+
+* Analyze customer segments and revenue contribution
+* Evaluate customer satisfaction and sentiment trends
+* Measure marketing channel effectiveness
+* Assess delivery performance and operational efficiency
+* Identify inventory loss patterns and inefficiencies
+
+---
+
+## 4.  Data Description
+
+The project uses structured datasets divided into key domains:
+
+### 4.1 Customer Data
+
+* Customer segments (Regular, Premium, New, Inactive)
+* Order frequency and revenue contribution
+
+### 4.2 Feedback Data
+
+* Ratings (1–5 scale)
+* Sentiment categories (Excellent → Bad)
+* Feedback classification
+
+### 4.3 Marketing Data
+
+* Impressions, clicks, conversions
+* Channel types (App, Email, Social Media, SMS)
+
+### 4.4 Delivery Data
+
+* Delivery time
+* Distance buckets
+* Delivery status
+
+### 4.5 Inventory Data
+
+* Stock received
+* Damaged units
+* Product categories
+* Shelf life
+
+---
+
+## 5.  Data Preprocessing
+
+The following steps were performed:
+
+* Handling missing and inconsistent values
+* Standardization of categorical fields
+* Feature engineering:
+
+  * Revenue = Quantity × Price
+  * Damage Rate = Damaged / Total Stock
+  * Conversion Rate = Clicks / Impressions
+* Data aggregation using pivot tables
+
+---
+
+## 6.  Methodology
+
+The project follows a structured analytics pipeline:
+
+1. **Data Collection & Cleaning** (Excel)
+2. **Transformation & KPI Engineering**
+3. **Exploratory Data Analysis**
+4. **Dashboard Development (Looker Studio)**
+5. **Insight Extraction & Business Interpretation**
+
+---
+
+## 7.  Dashboard Architecture
+
+The system consists of **four analytical dashboards**, each designed for a specific business function:
+
+---
+
+### 7.1 Customer & Feedback Dashboard
+
+#### KPIs:
+
+* Feedback Count: 5,000
+* Average Rating: 3.34
+* Customer Segments: 4
+
+#### Analysis:
+
+* Segment-wise profitability
+* Sentiment distribution
+* Rating trends
+* Customer composition
+
+#### Key Insight:
+
+Inactive customers generate higher order values but contribute less frequently.
+
+---
+
+### 7.2 Marketing & Revenue Dashboard
+
+#### KPIs:
+
+* Total Orders: 5,000
+* Avg Revenue: 994.48
+* Conversion Rate: 55.19%
+
+#### Analysis:
+
+* Revenue distribution across buckets
+* Channel-wise performance
+* Funnel metrics (Impressions → Clicks → Conversion)
+
+#### Key Insight:
+
+Marketing channels show near-equal distribution, indicating lack of optimization focus.
+
+---
+
+### 7.3 Delivery & Operations Dashboard
+
+#### KPIs:
+
+* Avg Delivery Time: 4.44
+* Avg Distance: 2.72 km
+
+#### Analysis:
+
+* Delivery status classification
+* Distance vs order relationship
+* Payment method trends
+
+#### Key Insight:
+
+Delivery delays significantly correlate with reduced customer satisfaction.
+
+---
+
+### 7.4 Inventory & Product Dashboard
+
+#### KPIs:
+
+* Categories: 11
+* Damage Rate: 11%
+
+#### Analysis:
+
+* Stock vs damaged comparison
+* Shelf life distribution
+* Category contribution
+
+#### Key Insight:
+
+High inventory damage suggests inefficiencies in storage or logistics.
+
+---
+
+## 8.  Key Findings
+
+* Premium and inactive users contribute disproportionately to revenue
+* Customer satisfaction is moderately positive but unstable
+* Marketing channels lack differentiation in performance
+* Delivery efficiency directly impacts retention
+* Inventory damage is a critical operational cost factor
+
+---
+
+## 9.  Business Recommendations
+
+### Customer Strategy
+
+* Target inactive high-value users with retention campaigns
+* Improve loyalty programs for premium users
+
+### Marketing Optimization
+
+* Reallocate budget to high-conversion channels
+* Introduce A/B testing for campaign efficiency
+
+### Operations Improvement
+
+* Optimize delivery routes to reduce delays
+* Improve logistics tracking
+
+### Inventory Management
+
+* Implement stricter quality checks
+* Reduce overstocking of perishable goods
+
+---
+
+## 10.  Tools & Technologies
+
+* Microsoft Excel (Data Processing & Analysis)
+* Looker Studio (Dashboard Visualization)
+* CSV Data Handling
+
+---
+
+## 11.  Limitations
+
+* Static dataset (no real-time updates)
+* Limited external variables (weather, traffic, etc.)
+* Assumptions in calculated KPIs
+
+---
+
+## 12.  Future Scope
+
+* Integration with real-time data pipelines
+* Predictive analytics (demand forecasting, churn prediction)
+* Machine learning-based recommendation systems
+* Automated dashboard refresh
+
+---
+
+## 13.  Conclusion
+
+This project demonstrates how multi-domain data can be unified into a **cohesive business intelligence system**.
+
+By combining structured analysis with dashboard storytelling, it enables:
+
+* Strategic decision-making
+* Operational efficiency
+* Customer-centric improvements
+
+---
+
+## 14.  Author
+
+**Saumya Mishra**
+Data Analytics Project
+
+---
