@@ -28,8 +28,7 @@ Blinkit_Analytics_Center/
 ├── Charts/
 ├── Images/
 ├── Looker_Studio_Dashboard/
-│   ├── dashboard.html
-│   ├── Screenshot_*.png
+│ 
 │
 └── README.md
 ```
