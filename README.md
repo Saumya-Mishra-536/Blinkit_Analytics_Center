@@ -60,7 +60,7 @@ This project includes **4 fully developed dashboards**, exported as screenshots 
 
 ---
 
-### 📊 2. Marketing & Revenue Analytics Dashboard
+###  2. Marketing & Revenue Analytics Dashboard
 
 **Key KPIs:**
 
@@ -115,10 +115,10 @@ This project includes **4 fully developed dashboards**, exported as screenshots 
 
 ## Dashboard Access
 
-* 📁 Offline interactive dashboard:
+*  Offline interactive dashboard:
   `Looker_Studio_Dashboard/dashboard.html`
 
-* 📸 Dashboard screenshots:
+* Dashboard screenshots:
   Available in the same folder
 
 ---
