@@ -3,7 +3,7 @@
 **End-to-End Data Analysis | Interactive Dashboards | Business Insights**
 
 <p align="center">
-  <img src="Looker_Studio_Dashboard/Blinkit Products and Inventory.png" width="800"/>
+  <img src="Looker_Studio_Dashboard/Marketing and Sales Impact.png" width="800"/>
 </p>
 
 ---
