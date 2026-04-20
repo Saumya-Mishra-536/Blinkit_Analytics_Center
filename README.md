@@ -2,6 +2,10 @@
 
 **End-to-End Data Analysis | Interactive Dashboards | Business Insights**
 
+<p align="center">
+  <img src="Looker_Studio_Dashboard/Blinkit Products and Inventory.png" width="800"/>
+</p>
+
 ---
 
 ##  Project Overview
@@ -152,11 +156,6 @@ This project includes **4 fully developed dashboards**, exported as screenshots 
 * Revenue distribution is skewed toward mid-value orders
 
 
-## 📊 Dashboard 4
-
-<p align="center">
-  <img src="Looker_Studio_Dashboard/Blinkit Products and Inventory.png" width="800"/>
-</p>
 ---
 
 ## Conclusion
