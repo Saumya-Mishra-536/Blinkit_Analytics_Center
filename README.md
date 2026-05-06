@@ -40,6 +40,7 @@ Blinkit_Analytics_Center/
 ---
 
 ## Dashboards Overview
+Link : https://datastudio.google.com/reporting/f370c2d0-90f4-4ff2-91ab-8a9fc374e4d3/page/page_12345
 
 This project includes **4 fully developed dashboards**, exported as screenshots and an HTML dashboard.
 
